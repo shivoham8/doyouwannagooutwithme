@@ -29,8 +29,8 @@ This project showcases a simple and interactive animated proposal webpage. The w
 </html>
 ```
 
-## Javascript Structure
- ```
+## JavaScript Functions
+ ```javascript
 function nextPage() {
             window.location.href = "yes.html";
         }
@@ -49,12 +49,12 @@ function nextPage() {
 1. Clone the repository.
 2. Open the index.html file in your web browser.
 3. Experience the interactive proposal webpage.
-4. 
+ 
 Feel free to customize the content and styles according to your preferences.
 
 ## Demo
 
-Check out the live demo [here]().
+Check out the live demo [here](https://shivoham8.github.io/doyouwannagooutwithme/).
 
 ## Note
 
