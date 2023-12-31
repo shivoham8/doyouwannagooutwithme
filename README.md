@@ -4,30 +4,20 @@
 
 This project showcases a simple and interactive animated proposal webpage. The webpage includes a charming header, an animated GIF, and two buttons: "Yes" and "No." The "No" button adds an engaging touch by moving randomly across the screen when clicked or hovered over.
 
-## HTML Structure
+## Key Features
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animated Proposal</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="header_text">Do you wanna go out with me?</div>
-        <div class="gif"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNThtMjludHR1ZTNzNjR0eWJ0c3h0M3RuNmc4aXl2Z3EwbG8waHpubSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif" alt="animated-image"></div>
-        <div class="buttons">
-            <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
-            <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
-        </div>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
-```
+- **Engaging Animation:** The webpage includes a dynamic GIF to capture attention and add a playful element to the proposal.
+  
+- **Interactive Buttons:** Users can respond to the proposal by clicking the "Yes" button, which triggers a redirection to the "yes.html" page. The "No" button, when clicked or hovered over, dynamically moves to a random position on the screen, creating an amusing effect.
+
+## JavaScript Functions
+
+The JavaScript functions in the code control the interactive behavior of the webpage:
+- **`nextPage()`:** Redirects the user to the "yes.html" page when the "Yes" button is clicked.
+  
+- **`moveButton()`:** Dynamically moves the "No" button to a random position within the window, either when clicked or hovered over.
+
+Explore the [HTML source code](index.html) to understand the implementation details and customize the proposal webpage according to your preferences.
 
 ## JavaScript Functions
  ```javascript
